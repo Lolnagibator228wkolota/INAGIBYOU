@@ -1,0 +1,82 @@
+
+.pagewrap{width: 100%}
+
+body {  		/* фон */
+         background-position: 10% 10%;
+		 
+         background-image: url(images/fon.jpg);
+         background-repeat: repeat;
+}
+h5{
+	font:italic bold 180% Tahoma;
+	color:#DEDBDB;
+	height:1px;
+}
+a: link{        /* для ссылок */
+	color:#405555;
+} 
+a:visited{				/* для ссылок */
+	color:#405555;
+}
+a:hover{			/* для ссылок */
+	color:#405555;
+}
+a:active{				/* для ссылок */
+	color:#405555;
+}
+a{							/* шрифт */
+	font:italic bold 160% Tahoma;
+	text-decoration:none;
+}
+h3{                             /* в турнирной таблице заголовки  */
+	color:#F78617;
+}
+.bg_1 ,.bg_2{                        /* прямоугольники  */
+		background-color:#E2E19C;
+		font-color:#405555;
+		text-align: center;}
+
+.bg_3{
+background-color:#4A4F7B;
+}
+.bg_4{background-color:#DEDBDB;} /*для новостей*/
+.cntr{
+	margin:0 0 0 0;    /* для СПОРТА */
+    width:84%; height:40%;
+font:italic bold 160% Tahoma;
+}
+#am{
+/*padding-bottom:100%; /* для Новостей */
+line-height:/*5px*/0.9em;
+  }
+.clsspan{            /* для турнирной таблице*/
+line-height:/*5px*/0.3em;
+font-size:0.9em;					
+}
+.news{
+/*display: inline-block;
+font-size: 0.91em;*/
+margin: 20px;
+bottom:40px;
+text-align: left;
+width: 80%;
+}
+.aligncenter{      /* для картинок */
+display: inline;
+margin: 20px 100px 30px 20px;
+}
+#pnews{
+	color:#000000; /*для ссылок на новость*/
+	text-align:right;	
+}
+#zaglavp{
+color:#F78617;
+font-family:Courier New;
+}
+span table{
+margin:0 0 0 25px;
+font-size: 0.9em;
+}
+
+
+
