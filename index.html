@@ -1,0 +1,71 @@
+<html>
+  <head>
+		<title>САЙТ ПА ЛИГЕЛИГЕНД</title>
+<script>
+var tit = document.title;
+var c = 0;
+//
+function writetitle() {
+  document.title = tit.substring(0,c);
+  if(c==tit.length) {
+    c = 0;setTimeout("writetitle()", 3000)
+  } else {
+    c++;
+    setTimeout("writetitle()", 200)
+  }
+}
+writetitle()
+</script>
+		<link rel="stylesheet" type="text/css" href="responsive-gs-12col.css"/>
+		<link rel="stylesheet" type="text/css" href="st.css"/>
+		
+	</head>
+<body>
+
+<div id="page_wrap" class="container row pagewrap bground"> 
+    <header class="row cntr">
+      <hgroup>
+        <div  class="col span_12  ">
+          <img src="images/lol.jpg" width="120%" height="40%" /> 
+        </div>
+        
+        <!---   <h1 class="col span_8 site-header ">Спорт</h1> --->
+        
+      </hgroup>
+      </header>
+
+	<section  class="row">
+	<div class="col span_2 bg_2">
+		<div  class="container row bg_2  ">
+			<BR>
+		</div>
+		<div  class="container row bg_2  ">
+			<a href="">Навигация</a>
+		</div>
+		<div  class="container row bg_2">
+			<a href="">Пасхалки</a>
+		</div>
+		<div  class="container row bg_2">
+			<a href="">ГИФ</a>
+		</div>
+		<div  class="container row bg_2 ">
+			<a href="">Тактики</a>
+		</div>
+		<div class="container row bg_2">
+			<a href="">О создателе сайта</a>
+		</div>
+	</div>
+	
+	<div class="col span_1">
+	<BR>
+	</div> 
+	<div id="am" class="col span_7 bg_4">
+		<div class="news bg_4" >
+<p bg_4>ВСЕМ ПРИВЕТ ОТ МЕНЯ! </p>
+			<p><a id="pnews" href="about.html">Подробнее</a></p>
+		</div>
+	</div>
+    	</section>
+	<!-- content_wrap -->
+	</body>
+</html>
